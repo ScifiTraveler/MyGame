@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>泰百连连看Demo</title>
+    <link rel="icon" href="favicon.ico">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h2> 泰百连连看</h2>
+    <audio id="bgm" src="assets/audio/PrincessTalePiano.ogg" loop></audio>
+    <p id="scoreDisplay">当前分数：0 </p>
+    <canvas id="gameCanvas" width="700" height="700"></canvas>
+    
+     <!-- 提示框 -->
+     <div id="gameTip" class="game-tip">
+        <p>泰百CP连连看，你能得多少分</p>
+        <button onclick="startGame()">开始游戏</button>
+      </div>
+    
+    <script src="main.js"></script>
+</body>
+</html>
